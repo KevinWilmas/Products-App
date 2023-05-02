@@ -3,6 +3,14 @@
     <nav>
       <ul>
         <li>
+          <router-link to="/products">
+            <img
+              class="box__icon"
+              src="../assets/Products_App_Icon.png"
+              alt="Products App Box Icon"
+          /></router-link>
+        </li>
+        <li>
           <router-link to="/products">All Products</router-link>
         </li>
         <li>
@@ -49,5 +57,11 @@ a:hover,
 a:active,
 a.router-link-active {
   color: #fca55e;
+}
+
+.box__icon {
+  position: absolute;
+  width: 80px;
+  transform: translate(-125%, -50%);
 }
 </style>
